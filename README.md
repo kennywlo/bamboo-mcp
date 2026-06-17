@@ -246,6 +246,7 @@ npx @modelcontextprotocol/inspector --url http://localhost:8000/mcp
 | [`docs/mcp.md`](docs/mcp.md) | MCP protocol, tool contracts, LLM roles, orchestration |
 | [`docs/interfaces.md`](docs/interfaces.md) | TUI, Streamlit UI, HTTP transport, context memory |
 | [`docs/plugins.md`](docs/plugins.md) | Writing and registering plugins |
+| [`docs/atlas_finetuning_dataset_spec.md`](docs/atlas_finetuning_dataset_spec.md) | ATLAS fine-tuning dataset shape for Bamboo |
 | [`docs/jobs-database.md`](docs/jobs-database.md) | Live PanDA jobs DB queries — schema, examples, guard rules, routing |
 | [`docs/cric-database.md`](docs/cric-database.md) | CRIC queuedata queries — schema, examples, guard rules, routing, disambiguation |
 | [`docs/cgsim-database.md`](docs/cgsim-database.md) | CGSim simulation DB queries — EVENTS schema, METADATA fields, example SQL, security model |
