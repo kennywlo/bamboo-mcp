@@ -277,17 +277,7 @@ export BAMBOO_MCP_CLIENT_TIMEOUT=180   # seconds
 
 # Architecture Overview
 
-```
-User Interface (Streamlit / Textual)
-        ↓
-Shared MCP Client
-        ↓
-Bamboo MCP Server
-        ↓
-Plugins + Tools (atlas, etc.)
-        ↓
-LLM Provider (OpenAI, Mistral, etc.)
-```
+All user interfaces are thin clients. Server-side logic handles routing,
+planning, tool selection, and LLM execution.
 
-All user interfaces are thin clients.
-Server-side logic handles routing, planning, tool selection, and LLM execution.
+See [Bamboo System Architecture](system-architecture.md) for the full diagram.
